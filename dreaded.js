@@ -80,9 +80,9 @@ const antibot = process.env.ANTIBOT || 'FALSE';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR ||'𝐍𝐢𝐜𝐤';
-    const packname = process.env.STICKER_PACKNAME || '𝐇𝐮𝐧𝐭𝐞𝐫';
-const dev = process.env.DEV || '254114660061';
+    const author = process.env.STICKER_AUTHOR ||'OGAAH';
+    const packname = process.env.STICKER_PACKNAME || 'OGAAH';
+const dev = process.env.DEV || '2349031767048';
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
@@ -340,18 +340,18 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
       switch (command) {
       case "help":
         case "menu":
-let cap = `╭═══𒋨〘 𝐑𝐀𝐕𝐄𝐍 𝐀𝐈 〙═𒋨࿌
+let cap = `╭═══𒋨〘 𝐎𝐆𝐀𝐀𝐇🇳🇬 〙═𒋨࿌
 ┃༆╭࿐࿐࿐࿐࿐࿐࿐༆
-┃༆│ 𝐎𝐰𝐧𝐞𝐫 : 𝗡𝗶𝗰𝗸_𝗛𝘂𝗻𝘁𝗲𝗿༆
+┃༆│ 𝐎𝐰𝐧𝐞𝐫 : OGAAH🇳🇬༆
 ┃༆│ 𝐔𝐬𝐞𝐫 : ${m.pushName}
-┃༆│ 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : 𝐇𝐞𝐫𝐨𝐤𝐮
+┃༆│ 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : 𝐈𝐂𝐄:𝐓𝐄𝐂𝐇:𝐇𝐄𝐀𝐃𝐐𝐔𝐀𝐑𝐓𝐄𝐑𝐒
 ┃༆│ 𝐒𝐩𝐞𝐞𝐝 : ${dreadedspeed.toFixed(4)} 𝐦𝐬
 ┃༆│ 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐑𝐀𝐌 : 96𝐆𝐁 𝐨𝐟 512𝐆𝐁
 ┃༆│ 𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${runtime(process.uptime())}
 ┃༆│ 𝐕𝐞𝐫𝐬𝐢𝐨𝐧: 𝗩7.𝟎.2
 ┃༆│●───●───●───●─●╮
 ┃༆│༄༄༄༄༄༄༄༄༄༄❚
-┃༆│  ▋▋𝐑𝐀𝐕𝐄𝐍 𝐁𝐎𝐓▋▋
+┃༆│  ▋▋𝐎𝐆𝐀𝐀𝐇🇳🇬▋▋
 ┃༆│༄༄༄༄༄༄༄༄༄༄❚
 ┃༆│●───●───●───●─●╯
 ┃╰࿐࿐࿐࿐࿐࿐࿐𖤓╮
@@ -447,7 +447,7 @@ let cap = `╭═══𒋨〘 𝐑𝐀𝐕𝐄𝐍 𝐀𝐈 〙═𒋨࿌
 ┃༆│ *_𝐀𝐝𝐯𝐢𝐜𝐞_*
 ┃༆│ *_𝐒𝐲𝐬𝐭𝐞𝐦_*
 ┃᯽︎╰࿐࿐࿐࿐࿐࿐࿐࿐࿌╮
-┃☬𝗠𝗔𝗗𝗘 𝗢𝗡 𝗘𝗔𝗥𝗧𝗛 𝗕𝗬 𝗛𝗨𝗠𝗔𝗡𝗦!
+┃☬𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝗕𝗬 ֎𝐎𝐆𝐀𝐀𝐇֎!
 ╰═༄༄༄༄༄༄༄༄༄༄༄༄༄༄࿌╯`;
 
 if (menu === 'VIDEO') {
@@ -470,7 +470,7 @@ client.sendMessage(m.chat, {
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `𝐑𝐀𝐕𝐄𝐍-𝐀𝐈`,
+                                title: `𝐎𝐆𝐀𝐀𝐇`,
                                 body: `${runtime(process.uptime())}`,
                                 thumbnail: fs.readFileSync('./Raven.jpg'),
                                 sourceUrl: 'https://wa.me/254114660061?text=Hello👋+Nick+Nihostie+Bot+Mkuu+😔',
@@ -1099,7 +1099,7 @@ await m.reply('Successfully removed!');
  case 'sc': case 'script': case 'repo':
 
  client.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/416c3ae0cfe59be8db011.jpg` }, caption: 
-`👋🏻 Hello *${pushname}*,You can deploy 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧 using the GitHub link below🦄\n\nFork and give us a star✨.\n\n https://github.com/HunterNick2/RAVEN-MD\n\nLink with your whatsapp using pairing link below\nhttps://replit.com/@dicksonnicky50/Pairing-Raven\n\nAfter uploading the document connect your repo with this link and deploy\nhttps://dashboard.heroku.com/new-app?template=\n\nEnjoy and have fun with 𝗥𝗔𝗩𝗘𝗡 𝗕𝗢𝗧 🦄!\n\n𝗠𝗮𝗱𝗲 𝗼𝗻 𝗲𝗮𝗿𝘁𝗵 𝗯𝘆 𝗛𝘂𝗺𝗮𝗻𝘀!` });
+`👋🏻 Hello *${pushname}*,You can deploy 𝐎𝐆𝐀𝐀𝐇🇳🇬 using the GitHub link below🦄\n\nFork and give us a star✨.\n\n https://github.com/realestice/Ice-ai\n\nLink with your whatsapp using pairing link below\nhttps://replit.com/smokyice56/Pairing-ICE-AI\n\nAfter uploading the document connect your repo with this link and deploy\nhttps://dashboard.heroku.com/new-app?template=\n\nEnjoy and have fun with 𝗥𝗔𝗩𝗘𝗡 𝗕𝗢𝗧 🦄!\n\n𝗠𝗮𝗱𝗲 𝗼𝗻 𝗲𝗮𝗿𝘁𝗵 𝗯𝘆 𝗛𝘂𝗺𝗮𝗻𝘀!` });
 
    break;
                                                   
