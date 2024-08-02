@@ -48,7 +48,7 @@ const Heroku = require("heroku-client");
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
 //const autobio = process.env.AUTOBIO || 'TRUE';
-const botname = process.env.BOTNAME || 'RAVEN AI';
+const botname = process.env.BOTNAME || 'OGAAH';
 const antibot = process.env.ANTIBOT || 'FALSE';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
@@ -1712,7 +1712,7 @@ break;
 break;
 
 case "ping": case "speed": {
-               m.reply (`*𝐑𝐚𝐯𝐞𝐧 𝐬𝐩𝐞𝐞𝐝 𝐢𝐬: ${dreadedspeed.toFixed(4)} _𝐦𝐬_*`); 
+               m.reply (`*𝐎𝐠𝐚𝐚𝐡 𝐬𝐩𝐞𝐞𝐝 𝐢𝐬: ${dreadedspeed.toFixed(4)} _𝐦𝐬_*`); 
          } 
  break; 
   
@@ -1723,7 +1723,7 @@ case "ping": case "speed": {
 
 case "alive": { 
   
- client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/0b64b4a37ebe0cb19c458.mp4' }, caption: `Hey @ ${m.pushName}, 𝐑𝐀𝐕𝐄𝐍 Has been alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/0b64b4a37ebe0cb19c458.mp4' }, caption: `Hey @ ${m.pushName}, 𝐎𝐆𝐀𝐀𝐇 Has been alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': case "app": {
@@ -1968,7 +1968,7 @@ case "movie":
         case "gpt": case "g": 
           
 
-            if (!text) return reply("Hello am 𝐑𝐀𝐕𝐄𝐍 an Ai developed by 𝐍𝐢𝐜𝐤_𝐇𝐮𝐧𝐭𝐞𝐫, how can I help you today?");
+            if (!text) return reply("Hello am 𝐎𝐠𝐚𝐚𝐡 an Ai developed by 𝐑𝐞𝐚𝐥𝐞𝐬𝐭_𝐢𝐜𝐞, how can I help you today?");
 
            const configuration = new Configuration({
 
